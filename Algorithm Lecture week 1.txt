@@ -1,0 +1,54 @@
+Algorithm Lecture week 1
+
+design an algorithm for an ATM/CDM machine
+
+
+- Checking account balance
+
+Start
+input accNum, pinCode
+if accNum == True AND pinCode == true
+	output accBal
+else
+	output "invalid account Number/ Pin COde"
+END
+
+- Cash Withrawal 
+
+Start
+input amount
+if amount >= existingAmount AND amount > 0
+	Output "Transaction Successful" Cash Out
+else 
+	Output "insufficient balance"
+endif
+END
+
+-------------
+
+ORder of Growth
+
+f(n) = n + 1
+n >>>> 1
+Order of growth = n (Linear)
+
+
+f(n) = 50.log n + 10
+50 <<<<< log n
+Order of growth = log n (Logarithmic)
+
+f(n) = 4.n^2 + 3.n + 100
+4.n^2 >>>> 3.n >>>> 100
+4 <<< n^2
+Order of growth = n^2 (Quadratic)
+
+f(n) = 1000
+(constant) 
+
+f(n) = 100.n.log n + 3.n + 100.log n +2
+100.n.log n >>>> 3.n >>>> 100.log n >>> 2
+100<<<<n.log n
+Order of growth = nlogn (Linear Logarithmic)
+
+
+
